@@ -6,18 +6,18 @@ const Skills = () => {
     <div className="skills-container">
       <div className="skill">
         <h2>About Me</h2>
-        <h>
+        <h3>
           I have one year of experience in developing server-side applications
           using Node.js, Express.js, and Koa.js. I also self-learned React.js
           and successfully implemented it in my projects. <br />
           My goal is to provide efficient, fast, and reliable solutions for web
           applications and constantly expand my technical knowledge.
-        </h>
+        </h3>
       </div>
 
       <div className="skill">
         <h2>Experience</h2>
-        <h>
+        <h3>
           Backend Intern (3 months) <br />
           Company ROOM4, Mykolaiv, 2021-2021 <br />
           <br />
@@ -32,12 +32,12 @@ const Skills = () => {
           Independent Project, 2023 Learned React.js and created interactive and
           responsive interfaces for web applications. Implemented client-side of
           applications for optimal interaction with the server.
-        </h>
+        </h3>
       </div>
 
       <div className="skill">
         <h2>Technical Skills</h2>
-        <h>
+        <h3>
           Backend: Node.js, Express.js, Koa.js (3 years) <br />
           <br />
           Databases: MongoDB, PostgreSQL (3 years) <br />
@@ -46,7 +46,7 @@ const Skills = () => {
           <br />
           Other Technologies: RESTful API, WebSocket, Git, ZohoCRM, PipeDrive,
           PipeDream, TelegramBot
-        </h>
+        </h3>
       </div>
     </div>
   );

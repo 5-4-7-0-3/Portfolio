@@ -26,10 +26,8 @@ const App = () => {
             <Contacts />
             <Header />
           </header>
-          <body>
-            <Skills></Skills>
-            <Projects></Projects>
-          </body>
+          <Skills></Skills>
+          <Projects></Projects>
           <footer>
             <Footer></Footer>
           </footer>
