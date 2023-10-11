@@ -1,0 +1,27 @@
+
+  .header {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to bottom, #33243300, #332433);
+    padding: 20px;
+    
+  }
+  
+  .header-photo {
+    width: 150px; /* Розмір фотографії */
+    height: 200px;
+    margin-right: 20px;
+    padding: 5px
+  }
+  
+  
+  .header-text {
+    font-size: 32px;
+    text-align: left;
+  }
+
+  p {
+    font-size: 24px;
+    text-align: left;
+
+  }

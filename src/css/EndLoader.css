@@ -1,0 +1,21 @@
+.black-screen {
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0); /* Чорний колір з прозорістю 70% */
+    position: fixed;
+    left: 0;
+    z-index: 2; /* Високий рівень надійності для покриття іншого контенту */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: top 1s ease;
+  }
+  .white-bar {
+    z-index: 2;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 15px; 
+    background: linear-gradient(to right, #4caf50, #ffffff, #ff9800); /* Градієнт від зеленого до оранжевого */
+    transition: top 1s ease;
+  }

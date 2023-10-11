@@ -1,0 +1,12 @@
+.skills-container {
+  display: flex;
+    background: linear-gradient(to bottom, #332433, #33243300);
+    padding: 20px;
+  }
+  
+  .skill {
+    width: 30%;
+    background-color: #33243300;
+    padding: 15px;
+    color: white;
+  }

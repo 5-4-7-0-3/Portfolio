@@ -1,0 +1,60 @@
+.contacts {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+  transition: all 0.3s ease;
+}
+
+.contacts.open {
+  display: block; 
+}
+
+.icons img {
+  width: 30px;
+  height: 30px;
+}
+
+.fixed-div {
+  position: fixed;
+  right: 10px; /* Відступ зправа */
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  transition: top 0.3s ease;
+  z-index: 1;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icons a {
+  position: relative;
+  text-decoration: none;
+}
+
+.icons a::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -1px;
+  background-image:radial-gradient(ellipse at center, #33243325, #332433);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  border-radius: 50%;
+}
+
+.icons a:hover::after {
+  opacity: 1;
+}
+
+

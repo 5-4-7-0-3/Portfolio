@@ -1,0 +1,25 @@
+.footer {
+    background-color: #302430;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .contact-info,
+  .social-media {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .social-media a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .social-media a:hover {
+    text-decoration: underline;
+  }
+  

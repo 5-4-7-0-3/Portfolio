@@ -1,0 +1,78 @@
+.projects-container {
+  background: linear-gradient(to bottom, #33243300, #33243300);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-item {
+  background-color: #302430;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  margin-left: -20%;
+  margin-right: -20%;
+  border-radius: 20px;
+  position: relative;
+}
+
+.project-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: radial-gradient(ellipse at center, #ffffff25, #ffffff48);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  border-radius: 20px;
+  box-shadow: 0 0 0 5px rgba(51, 36, 51, 0); 
+}
+
+.project-item:hover::after {
+  opacity: 1;
+  box-shadow: 0 0 0 5px rgba(51, 36, 51, 0.5); 
+}
+
+.project-image {
+  width: 350px;
+  height: 250px;
+  object-fit: contain;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #000000;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-title {
+  font-size: 24px;
+  text-align: left;
+}
+
+.project-description {
+  text-align: left;
+}
+
+.technologies-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.technology-item {
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
