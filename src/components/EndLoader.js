@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../css/EndLoader.css'; // Підключаємо CSS стилі для лоадера
+import '../css/EndLoader.css';
 
 const EndLoader = () => {
   const [progress, setProgress] = useState(0);

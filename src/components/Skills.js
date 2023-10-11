@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/Skills.css'; // Підключаємо стилі для компонента
+import '../css/Skills.css';
 
 const Skills = () => {
   return (

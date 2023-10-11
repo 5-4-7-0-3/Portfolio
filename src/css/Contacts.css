@@ -20,7 +20,7 @@
 
 .fixed-div {
   position: fixed;
-  right: 10px; /* Відступ зправа */
+  right: 10px;
   background-color: #333;
   color: #fff;
   padding: 20px;

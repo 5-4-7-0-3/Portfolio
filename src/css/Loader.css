@@ -11,7 +11,7 @@
   .loader-text {
     font-family: 'Pixelify Sans', sans-serif;
     font-size: 100px;
-    margin-bottom: 10px; /* Відступ від надпису до полоски завантаження */
+    margin-bottom: 10px;
   }
   
   .loader-box {
@@ -31,7 +31,7 @@
   .loader-bar {
     height: 100%;
     width: 100%;
-    background: linear-gradient(to right, #4caf50, #ff9800); /* Градієнт від зеленого до оранжевого */
+    background: linear-gradient(to right, #4caf50, #ff9800);
     transition: width 1s ease;
   }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/Contacts.css'; // Стилізуйте компонент у цьому файлі
+import '../css/Contacts.css';
 
 const Contacts = () => {
   const telegramImgUrl = process.env.PUBLIC_URL + '/images/icon-telegram.png';

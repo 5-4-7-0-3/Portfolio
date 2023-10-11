@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/Header.css'; // Підключаємо CSS стилі для лоадера
+import '../css/Header.css';
 
 const Header = () => {
   const urlPhoto = process.env.PUBLIC_URL + '/images/photo.jpg';

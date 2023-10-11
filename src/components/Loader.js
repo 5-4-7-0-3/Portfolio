@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../css/Loader.css'; // Підключаємо CSS стилі для лоадера
+import '../css/Loader.css';
 
 const Loader = ({ onLoadingFinished }) => {
   const [progress, setProgress] = useState(0);
@@ -12,10 +12,10 @@ const Loader = ({ onLoadingFinished }) => {
         );
       } else {
         setTimeout(() => {
-          onLoadingFinished(); // Викликаємо зовнішню функцію, яка обробляє завершення роботи лоадера
+          onLoadingFinished();
         }, 400);
       }
-    }, 500); // Швидкість заповнення прогресу
+    }, 500);
     return () => {
       clearInterval(interval);
     };

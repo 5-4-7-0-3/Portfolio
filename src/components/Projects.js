@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/Projects.css'; // Підключаємо стилі
+import '../css/Projects.css';
 
 const Projects = [
   {
@@ -18,7 +18,6 @@ const Projects = [
     image: process.env.PUBLIC_URL + '/images/Project.png',
     link: 'link_to_project_2',
   },
-  // Додайте інші проекти в масив аналогічно
 ];
 
 const ProjectList = () => {
